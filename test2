@@ -1,0 +1,13 @@
+x=3
+y=5
+z=x+y*7
+MESSAGE "z = " SHOW z
+NEWLINE
+INPUT "angle = " angle
+SHOW angle NEWLINE
+w = sin( radians(angle) )
+MESSAGE "w = " SHOW w NEWLINE
+z = -z
+MESSAGE "ok: " SHOW z NEWLINE
+MESSAGE "abs: " SHOW abs(-abs(z)) NEWLINE
+
